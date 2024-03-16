@@ -1,0 +1,9 @@
+body{
+  background-color: rgb(236, 236, 236);
+  font-family: "Roboto Serif";
+  margin: 0;
+}
+
+button{
+  cursor: pointer;
+}
