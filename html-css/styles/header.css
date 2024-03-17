@@ -64,10 +64,6 @@ button{
   margin: 5px;
 }
 
-.warenkorb-button:hover{
-  border: 1px solid;
-}
-
 .logo{
   float: left;
   width: 200px;
