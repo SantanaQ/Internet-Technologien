@@ -81,7 +81,7 @@ li{
   background-color: white;
   box-shadow: 0px 2px 4px rgba(65, 65, 65, 0.3);
   width: 220px;
-  height: 400px;
+  height: 450px;
   padding: 0;
 }
 
@@ -89,58 +89,77 @@ li{
   box-shadow: 0px 2px 20px rgba(54, 54, 54, 0.308);
 }
 
-.title{
-  text-align: center;
+.coverbox{
+  height: 60%;
 }
 
-.price{
-  margin-left: 5px;
-  float: left;
-}
-
-.shopping-cart{
-  margin-bottom: -8px;
-  margin-right: 8px;
-  padding-bottom: -50px;
-}
-
-.mini-warenkorb{
-  height: 30px;
-  width: 30px;
-  float: right;
-}
-
-.cover img{
-  height: 100%;
-  width: 100%;
+.coverbox img{
+  margin-top: 10px;
+  width: 100%; 
+  height: 100%; 
   object-fit: contain;
 }
 
-h5{
-  color: rgb(34, 34, 34);
-  margin-top: 5px;
+.link-to-details:link { 
+  text-decoration: none; 
+} 
+.link-to-details:visited { 
+  text-decoration: none; 
+} 
+.link-to-details:hover { 
+  text-decoration: none; 
+} 
+.link-to-details:active { 
+  text-decoration: none; 
 }
 
-.shoppingcart-button{
-  margin: 0;
-  padding: 0;
-  border: none;
+.description{
+  height: 80px;
+  border-bottom: 1px solid rgb(218, 218, 218);
+}
+
+
+.booktitle{
+  color: black;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+.author{
+  font-size: small;
+  color: rgb(110, 110, 110);
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+.price-and-shopping{
+  padding-top: 20px;
+}
+
+.price{
+  float: left;
+  margin: auto;
+  margin-left: 20px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.shoppingcart{
+  float: right;
+}
+
+.mini-warenkorb-button{
   background-color: white;
-  height: 0;
-  width: 20px;
+  border: none;
 }
 
-.detail-link:link { 
-  text-decoration: none; 
-} 
-.detail-link:visited { 
-  text-decoration: none; 
-} 
-.detail-link:hover { 
-  text-decoration: none; 
-} 
-.detail-link:active { 
-  text-decoration: none; 
+.mini-warenkorb{
+  width: 40px;
+  height: 40px;
 }
+
+
 
 
