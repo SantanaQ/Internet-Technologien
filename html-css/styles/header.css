@@ -21,7 +21,7 @@
   float: left;
   margin-top: 4px;
 }
-
+/*
 button{
   border: 1px solid;
   width: 100px;
@@ -32,11 +32,18 @@ button{
   font-weight: bold;
   text-shadow: 2px 2px 10px #5f5f5f;
 }
-
+*/
 .signup{
   background-color: rgb(0, 81, 255);
-  border-color: rgb(0, 81, 255);
   color: white;
+  border: 1px solid rgb(0, 81, 255);;
+  width: 100px;
+  height: 50px;
+  border-radius: 15px;
+  float: right;
+  margin: 10px;
+  font-weight: bold;
+  text-shadow: 2px 2px 10px #5f5f5f;
 }
 
 .signup:hover{
@@ -47,12 +54,21 @@ button{
 .login{
   background-color: whitesmoke;
   border-color: whitesmoke;
+  border: 1px solid;
+  width: 100px;
+  height: 50px;
+  border-radius: 15px;
+  float: right;
+  margin: 10px;
+  font-weight: bold;
 }
 
 .login:hover{
   background-color: white;
   border-color: black;
+  text-shadow: 0px 3px 5px #5f5f5f;
 }
+
 
 .warenkorb{
   width: 40px;
@@ -120,12 +136,15 @@ button{
 
 .searchbutton{
   margin: 0;
+  border-radius: 20px;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
   border: 1px solid rgb(180, 180, 180);
+  border-left: 0;
   background-color: whitesmoke;
   width: 50px;
   height: 50px;
+  
 }
 
 .searchbutton:hover{
