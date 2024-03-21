@@ -19,14 +19,20 @@
         <a href="index.html">
           <img class="logo" src="https://github.com/SantanaQ/Internet-Technologien/blob/main/images/amazon_logo_icon_169612.png?raw=true" alt="logo-placeholder">
         </a>
-        <a href="login.html">
-          <button class="login">Login</button>
-        </a>
-        <a href="registration.html">
-          <button class="signup">Sign Up</button>
-        </a>
-        <a href="shoppingcart.html">
-          <button class="warenkorb-button"><ion-icon name="cart-outline" class="warenkorb"></ion-icon></button>
+        <div class="search">
+          <input class="searchbar" type="text" placeholder="Search...">
+          <button class="searchbutton"><ion-icon name="search-outline"></ion-icon></button>
+        </div>
+        <div class="buttons">
+          <a href="login.html">
+            <button class="login">Login</button>
+          </a>
+          <a href="registration.html">
+            <button class="signup">Sign Up</button>
+          </a>
+          <a href="shoppingcart.html">
+            <button class="warenkorb-button"><ion-icon name="cart-outline" class="warenkorb"></ion-icon></button>
+        </div>
         </a>
         <div class="nav-bar">
 
@@ -37,11 +43,25 @@
 
     <div class="main-content">
       <div class="katalog">
-        <div class="ueberschrift-katalog">
-          <h1 class="durchsuchen">Durchsuchen</h1>
+        <div class="main-top">
+          <div class="ueberschrift-katalog">
+            <h1 class="durchsuchen">Durchsuchen</h1>
+          </div>
+          <div class="filter">
+            <ul class="filteroptions">
+              <div class="filterlabel">
+                <ion-icon class="filterlogo" name="filter-outline"></ion-icon>
+                <li class="filteroptions-item">Filter</li>
+              </div>
+              <li class="filteroptions-item"><a href="#">Autor</a></li>
+              <li class="filteroptions-item"><a href="#">Minimaler Preis</a></li>
+              <li class="filteroptions-item"><a href="#">Maximaler Preis</a></li>
+              <li class="filteroptions-item"><a href="#">Neuheiten</a></li>
+            </ul> 
+          </div>
         </div>
         <div class="filteroptionen">
-
+          
           <aside class="menu">
             <p class="menu-label">
               <a class="label-link" href="#">Alle Bücher</a>
@@ -170,31 +190,6 @@
                 </div>
               </div>
           </div>
-
-          <div class="bookbox" id="item-5">
-            <a class="link-to-details" href="bookdetails.html">
-              <div class="coverbox">
-                <img src="https://github.com/SantanaQ/Internet-Technologien/blob/main/images/a-song-of-ice-and-fire-01-a-game-of-thrones-taschenbuch-george-r-r-martin-englisch.webp?raw=true" alt="george-r-r-martin-a-game-of-thrones">
-              </div>
-              <div class="description">
-                <div class="title">
-                  <p class="booktitle">A Song of Ice and Fire 01. A Game of Thrones</p>
-                </div>
-            </a>
-                <div class="author">
-                  <p>George R.R. Martin</p>
-                </div>
-              </div>
-              <div class="price-and-shopping">
-                <div class="price">
-                  <p>9,50 €</p>
-                </div>
-                <div class="shoppingcart">
-                  <button class="mini-warenkorb-button"><ion-icon name="cart-outline" class="mini-warenkorb"></ion-icon></button>
-                </div>
-              </div>
-          </div>
-
      
         </section>
       </div>

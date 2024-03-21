@@ -8,8 +8,11 @@
 
 .items{
   margin: auto;
-  width: 65%;
+  width: 68%;
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .name{
@@ -69,10 +72,60 @@ button{
   width: 200px;
   height: 90px;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: left;
 }
 
 .home{
   float: left;
   background-color: white;
   border: 2px solid;
+}
+
+.search{
+  width: 80%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons{
+  display:flex;
+}
+
+.searchbar{
+  height: 46px;
+  width: 65%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 1px solid rgb(180, 180, 180);
+  padding-left: 30px;
+  margin: 0;
+  font-size: 18px;
+  outline: none;
+}
+
+.searchbar:hover{
+  background-color: white;
+  border-color: black;
+}
+
+.searchbar:focus{
+  background-color: white;
+  border-color: black;
+}
+
+.searchbutton{
+  margin: 0;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: 1px solid rgb(180, 180, 180);
+  background-color: whitesmoke;
+  width: 50px;
+  height: 50px;
+}
+
+.searchbutton:hover{
+  background-color: white;
+  border-color: black;
 }
