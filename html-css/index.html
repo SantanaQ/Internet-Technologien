@@ -49,11 +49,36 @@
               <div class="filterlabel">
                 <li class="filteroptions-item"><ion-icon class="filterlogo" name="filter-outline"></ion-icon>Filter</li>
               </div>
-              <li class="filteroptions-item"><a href="#">Autor</a></li>
+               <!--<li class="filteroptions-item"><button class="show-authors-button">Autor</button>--> 
+
+              <div class="new">
+                <button class="dropbtn">Neuheiten</button>
+              </div>
+
+              <div class="dropdown">
+                <button class="dropbtn">Autor</button>
+                <div class="dropdown-content">
+                  <a href="#">George R.R. Martin</a>
+                  <a href="#">Stephen King</a>
+                </div>
+              </div> 
+                <!--</li>
               <li class="filteroptions-item"><a href="#">Minimaler Preis</a></li>
               <li class="filteroptions-item"><a href="#">Maximaler Preis</a></li>
               <li class="filteroptions-item"><a href="#">Neuheiten</a></li>
-            </ul> 
+            </ul> -->
+            <form class="filter-form" method="post"> 
+            <div class="price-input">
+              <input class="price-field" type="number" min="1" max="100" step="1" placeholder="Minimaler Preis">
+            </div>
+
+            <div class="price-input">
+              <input class="price-field" type="number" min="1" max="100" step="1"  placeholder="Maximaler Preis">
+            </div>
+
+            <div class="confirm-filters"><a href="#"><button class="submit-filters-button" type="submit" value="submit"><ion-icon name="checkmark-outline"></ion-icon></a></button></div>
+          </form> 
+
           </div>
         </div>
         <div class="filteroptionen">
