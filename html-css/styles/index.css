@@ -199,43 +199,16 @@ li{
   height: 40px;
 }
 
-/*Filter Dropdowns*/
+.filter{
+  padding: 5px;
+}
 
-.dropbtn{
-  border: none;
-  font-size: 16px;
-  margin: 10px;
+.autoren-filter{
+  margin-left: 10px;
+  width: 120px;
+  height: 20px;
   background-color: white;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content{
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {
-  font-weight: bold;
+  border: 1px solid gray;
 }
 
 /*Preis Inputs*/
@@ -245,11 +218,28 @@ li{
 }
 
 .price-input{
-  margin: 10px;
+  margin-left: 10px;
 }
 
 .price-field{
   width: 150px;
+}
+
+.submit-filters-button{
+  margin-left: 10px;
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 35px;
+  background-color: white;
+}
+
+.submit-filters-button:hover{
+  background-color: rgb(0, 81, 255);
+  color: white;
+  border-color: rgb(0, 81, 255);
+}
+
+.submit-filters-button:hover .icon-small{
+  color: white;
 }
 
 

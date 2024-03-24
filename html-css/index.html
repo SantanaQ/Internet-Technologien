@@ -16,9 +16,11 @@
   <!--Anfang Header-->
   <div class="header">
     <div class="items">
-      <a href="index.html">
-        <img class="logo" src="https://github.com/SantanaQ/Internet-Technologien/blob/main/images/amazon_logo_icon_169612.png?raw=true" alt="logo-placeholder">
-      </a>
+      <div class="logo-box">
+        <a href="index.html">
+          <img class="logo" src="/images/logo.png" alt="logo">
+        </a>
+      </div>
       <div class="search">
         <input class="searchbar" type="text" placeholder="Search...">
         <button class="searchbutton"><ion-icon name="search-outline"></ion-icon></button>
@@ -49,24 +51,13 @@
               <div class="filterlabel">
                 <li class="filteroptions-item"><ion-icon class="filterlogo" name="filter-outline"></ion-icon>Filter</li>
               </div>
-               <!--<li class="filteroptions-item"><button class="show-authors-button">Autor</button>--> 
-
-              <div class="new">
-                <button class="dropbtn">Neuheiten</button>
-              </div>
-
-              <div class="dropdown">
-                <button class="dropbtn">Autor</button>
-                <div class="dropdown-content">
-                  <a href="#">George R.R. Martin</a>
-                  <a href="#">Stephen King</a>
-                </div>
-              </div> 
-                <!--</li>
-              <li class="filteroptions-item"><a href="#">Minimaler Preis</a></li>
-              <li class="filteroptions-item"><a href="#">Maximaler Preis</a></li>
-              <li class="filteroptions-item"><a href="#">Neuheiten</a></li>
-            </ul> -->
+            <select class="autoren-filter" name="autoren" id="autoren">
+              <option value="" disabled selected>Autor</option>
+              <option value="Edgar Allan Poe">Edgar Allan Poe</option>
+              <option value="saab">George R.R. Martin</option>
+              <option value="mercedes">J.K. Rowling</option>
+              <option value="audi">Stephen King</option>
+            </select> 
             <form class="filter-form" method="post"> 
             <div class="price-input">
               <input class="price-field" type="number" min="1" max="100" step="1" placeholder="Minimaler Preis">
@@ -76,7 +67,7 @@
               <input class="price-field" type="number" min="1" max="100" step="1"  placeholder="Maximaler Preis">
             </div>
 
-            <div class="confirm-filters"><a href="#"><button class="submit-filters-button" type="submit" value="submit"><ion-icon name="checkmark-outline"></ion-icon></a></button></div>
+            <div class="confirm-filters"><a href="#"><button class="submit-filters-button" type="submit" value="submit"><ion-icon class="icon-small" name="checkmark-outline"></ion-icon></a></button></div>
           </form> 
 
           </div>

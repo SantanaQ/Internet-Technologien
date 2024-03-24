@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/shoppingcart.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,9 +16,11 @@
   <!--Anfang Header-->
   <div class="header">
     <div class="items">
-      <a href="index.html">
-        <img class="logo" src="https://github.com/SantanaQ/Internet-Technologien/blob/main/images/amazon_logo_icon_169612.png?raw=true" alt="logo-placeholder">
-      </a>
+      <div class="logo-box">
+        <a href="index.html">
+          <img class="logo" src="/images/logo.png" alt="logo-placeholder">
+        </a>
+      </div>
       <div class="search">
         <input class="searchbar" type="text" placeholder="Search...">
         <button class="searchbutton"><ion-icon name="search-outline"></ion-icon></button>
@@ -36,6 +39,62 @@
     </div>
   </div>
   <!--Ende Header-->
+
+  <div class="main-content">
+    <div class="warenkorb-ueberschrift-box">
+      <h1>Ihr Warenkorb</h1>
+    </div>
+    <div class="warenkorb-items-box">
+      <div class="ausgewaehlte-items">
+
+        <div class="ware-box">
+          <div class="cover-box">
+            <div class="shadow-box">
+            <img src="https://github.com/SantanaQ/Internet-Technologien/blob/main/images/shining-taschenbuch-stephen-king.webp?raw=true" alt="stephen-king-shining">
+            </div>
+          </div>
+          <div class="infos">
+            <h2>Shining</h2>
+            <h3>von Stephen King</h3>
+            <p>Sofort lieferbar</p>
+          </div>
+          <div class="preis-box">
+            <h2>13,00 €</h2>
+            <div class="delete-from-shoppingcart">
+              <button class="delete-item-button"><ion-icon class="trashcan" name="trash-outline"></ion-icon></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="ware-box">
+          <div class="cover-box">
+            <div class="shadow-box">
+              <img src="https://github.com/SantanaQ/Internet-Technologien/blob/main/images/harry-potter-und-der-stein-der-weisen-j-k-rowling.jpeg?raw=true" alt="j-k-rowling-harry-pottter-1">
+            </div>
+          </div>
+          <div class="infos">
+            <h2>Harry Potter und der Stein der Weisen</h2>
+            <h3>von J.K. Rowling</h3>
+            <p>Sofort lieferbar</p>
+          </div>
+          <div class="preis-box">
+            <h2>10,00 €</h2>
+            <div class="delete-from-shoppingcart">
+                <button class="delete-item-button"><ion-icon class="trashcan" name="trash-outline"></ion-icon></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="gesamt">
+        <h2> 2 Artikel | 23,00 €</h2>
+        <a href="checkout.html">
+          <button class="kasse-button">Zur Kasse</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
 
 
   <!--Icon source-->
