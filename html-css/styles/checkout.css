@@ -1,0 +1,146 @@
+.main-content{
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+
+/* Progress Bar*/
+.stepper-wrapper {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.stepper-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
+}
+
+.stepper-item::before {
+  position: absolute;
+  content: "";
+  border-bottom: 2px solid #ccc;
+  width: 100%;
+  top: 20px;
+  left: -50%;
+  z-index: 2;
+}
+
+.stepper-item::after {
+  position: absolute;
+  content: "";
+  border-bottom: 2px solid #ccc;
+  width: 100%;
+  top: 20px;
+  left: 50%;
+  z-index: 2;
+}
+
+.stepper-item .step-counter {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ccc;
+  margin-bottom: 6px;
+}
+
+.stepper-item.active {
+  font-weight: bold;
+
+}
+
+.stepper-item.active .step-counter{
+  background: rgb(0, 81, 255);
+  color: white;
+}
+
+.stepper-item.completed .step-counter {
+  background-color: rgb(0, 81, 255);
+  color: white;
+}
+
+.stepper-item.completed::after {
+  position: absolute;
+  content: "";
+  border-bottom: 2px solid rgb(0, 81, 255);;
+  width: 100%;
+  top: 20px;
+  left: 50%;
+  z-index: 3;
+}
+
+.stepper-item:first-child::before {
+  content: none;
+}
+.stepper-item:last-child::after {
+  content: none;
+}
+/* Progress Bar*/
+
+
+.customer-details{
+  display: flex;
+  justify-content: space-between;
+}
+
+.left{
+  width: 60%;
+  height: 1300px;
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(65, 65, 65, 0.3);
+}
+
+.left2{
+  width: 60%;
+  height: 1000px;
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(65, 65, 65, 0.3);
+}
+
+.left-item-box{
+  margin: auto;
+  margin-top: 30px;
+  width: 90%;
+  height: 800px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 4px rgba(65, 65, 65, 0.3);
+}
+
+.left-item-bottom-box{
+  margin: auto;
+  margin-top: 2%;
+  width: 90%;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 4px rgba(65, 65, 65, 0.3);
+}
+
+.nextstep{
+  margin: auto;
+  margin-top: 10px;
+  width: 90%;
+  height: 100px;
+  background-color: aqua;
+  display:flex;
+  justify-content:end;
+}
+
+.right{
+  width: 35%;
+  height: 300px;
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(65, 65, 65, 0.3);
+}
