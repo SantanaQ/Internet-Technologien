@@ -49,6 +49,7 @@ button{
 .signup:hover{
   background-color: white;
   color: rgb(0, 81, 255);
+  text-shadow: none;
 }
 
 .login{
