@@ -43,7 +43,7 @@ button{
 
 .logo-box{
   margin-top: 5px;
-  width: 20%;
+  width: 30%;
 }
 
 .logo-box img{
@@ -76,21 +76,24 @@ button{
   outline: none;
 }
 
-@media only screen and (min-width: 700px){
+@media only screen and (min-width: 800px){
   .searchbar{
-    width: 0%;
+    display: none;
+  }
+
+  .searchbutton{
+    display: none;
   }
 }
 
-@media only screen and (min-width: 900px){
-  .searchbar{
-    width: 30%;
-  }
-}
-
-@media only screen and (min-width: 1344px){
+@media only screen and (min-width: 1200px){
   .searchbar{
     width: 45%;
+    display: flex;
+  }
+
+  .searchbutton{
+    display: inline-block;
   }
 }
 
