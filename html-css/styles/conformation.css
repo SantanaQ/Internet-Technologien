@@ -18,9 +18,15 @@
 
 .zurück{
     background-color: rgb(0, 81, 255);
-    border-color: rgb(0, 81, 255);
     color: white;
+    border: 1px solid rgb(0, 81, 255);;
     width: 180px;
+    height: 50px;
+    border-radius: 15px;
+    float: right;
+    margin: 10px;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px #5f5f5f;
 }
 
 
