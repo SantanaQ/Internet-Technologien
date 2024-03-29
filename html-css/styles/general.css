@@ -2,7 +2,7 @@ body{
   background-color: rgb(248, 248, 248);
   font-family: 'Roboto';
   margin: 0;
-  padding-bottom: 300px;
+  padding-bottom: 700px;
 }
 
 button{
@@ -25,8 +25,6 @@ a:hover {
 a:active { 
   text-decoration: none; 
 }
-
-
 
 .roboto-thin {
   font-family: "Roboto", sans-serif;
