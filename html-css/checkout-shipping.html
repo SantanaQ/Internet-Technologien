@@ -75,11 +75,17 @@
         <div class="Kontakt">
             <form action="checkout-payment.html">
             <h2>Kontakt</h2>
-            <input class="input" type="text" required placeholder="E-Mail">
+            <div>
+              <input class="input" type="text" required placeholder="E-Mail">
+            </div>
+            <div class="phone-box">
+              <input class="input" type="text" placeholder="Telefonnr.">
+              <input class="input" type="text" placeholder="Handynr.">
+            </div>
+            
         </div>
         <div class="EingabeAdresse">
             <h1>Lieferadresse</h1>
-
             <table class="liefern">
                 <tr>
                     <td colspan="2">
@@ -113,10 +119,7 @@
                     <td><input class="input" type="text" required placeholder="PLZ"></td>
                     <td><input class="input" type="text" required placeholder="Ort"></td>
                 </tr>
-                <tr>
-                    <td><input class="input" type="text" placeholder="Telefonnr."></td>
-                    <td><input class="input" type="text" placeholder="Handynr."></td>
-                </tr>
+
             </table>
             <br>
             <input type="submit" value="Weiter">
