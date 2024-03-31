@@ -1,226 +1,202 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/checkout.css">
 
-    <link rel="icon" type="image/x-icon" href="https://github.com/SantanaQ/Internet-Technologien/blob/main/images/icon.png?raw=true">
+    <link rel="icon" type="image/x-icon"
+          href="https://github.com/SantanaQ/Internet-Technologien/blob/main/images/icon.png?raw=true">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
     <title>Bookshelf - Kasse</title>
-  </head>
-  <body>
-  <!--Anfang Header-->
-  <div class="header">
+</head>
+<body>
+<!--Anfang Header-->
+<div class="header">
     <div class="left"></div>
     <div class="items">
-      <div class="logo-box">
-        <a href="index.html">
-          <img class="logo" src="https://github.com/SantanaQ/Internet-Technologien/blob/main/images/logo.png?raw=true" alt="logo">
-        </a>
-      </div>
-      <div class="search">
-        <input class="searchbar" type="text" placeholder="Search...">
-        <button class="searchbutton"><ion-icon name="search-outline"></ion-icon></button>
-      </div>
-      <div class="buttons">
-        <a href="login.html">
-          <button class="login">Login</button>
-        </a>
-        <a href="registration.html">
-          <button class="signup">Sign Up</button>
-        </a>
-        <a href="shoppingcart.html">
-          <button class="warenkorb-button"><ion-icon name="cart-outline" class="warenkorb"></ion-icon></button>
-        </a>
-      </div>
+        <div class="logo-box">
+            <a href="index.html">
+                <img class="logo"
+                     src="https://github.com/SantanaQ/Internet-Technologien/blob/main/images/logo.png?raw=true"
+                     alt="logo">
+            </a>
+        </div>
+        <div class="search">
+            <input class="searchbar" type="text" placeholder="Search...">
+            <button class="searchbutton">
+                <ion-icon name="search-outline"></ion-icon>
+            </button>
+        </div>
+        <div class="buttons">
+            <a href="login.html">
+                <button class="login">Login</button>
+            </a>
+            <a href="registration.html">
+                <button class="signup">Sign Up</button>
+            </a>
+            <a href="shoppingcart.html">
+                <button class="warenkorb-button">
+                    <ion-icon name="cart-outline" class="warenkorb"></ion-icon>
+                </button>
+            </a>
+        </div>
     </div>
     <div class="right"></div>
-  </div>
-  <!--Ende Header-->
+</div>
+<!--Ende Header-->
 
-  <div class="main-block">
+<div class="main-block">
 
     <div class="progress-box">
-      <div class="stepper-wrapper">
-        <div class="stepper-item active">
-          <div class="step-counter">1</div>
-          <div class="step-name">Addresse & Kontakt</div>
+        <div class="stepper-wrapper">
+            <div class="stepper-item active">
+                <div class="step-counter">1</div>
+                <div class="step-name">Addresse & Kontakt</div>
+            </div>
+            <div class="stepper-item">
+                <div class="step-counter">2</div>
+                <div class="step-name">Zahlungsmethode</div>
+            </div>
+            <div class="stepper-item">
+                <div class="step-counter">3</div>
+                <div class="step-name">Bestellbestätigung</div>
+            </div>
         </div>
-        <div class="stepper-item">
-          <div class="step-counter">2</div>
-          <div class="step-name">Zahlungsmethode</div>
-        </div>
-        <div class="stepper-item">
-          <div class="step-counter">3</div>
-          <div class="step-name">Bestellbestätigung</div>
-        </div>
-      </div>
     </div>
 
     <hr>
 
-  </div>
+</div>
 
-  <div class="info">
+<div class="info">
+
     <div class="links">
-      <div class ="Kontakt">
-          <h2>Kontakt</h2>
-          <input type="text" required placeholder="E-Mail">
-      </div>
-     <div class="EingabeAdresse">
-        <h1>Lieferadresse</h1>
-       <form action="checkout-payment.html">
-         <table class="liefern">
-           <tr>
-             <td colspan="2">
-               <label for="anrede"> Anrede: </label>
-               <select name="Anrede" id="anrede">
-                 <option value="Herr">Herr</option>
-                 <option value="Frau">Frau</option>
-                 <option value="?">?</option>
-              </select>
-             </td>
-             <td rowspan="2">
+        <div class="Kontakt">
+            <form action="checkout-payment.html">
+            <h2>Kontakt</h2>
 
-             </td>
-           </tr>
-           <tr>
-             <td colspan="1"><input type="text" required placeholder="Vorname"></td>
-             <td colspan="1"><input type="text" required placeholder="Nachname"></td>
-           </tr>
-           <tr>
-             <td><input type="text" required placeholder="Adresse"></td>
-             <td><input type="text" required placeholder="Hausnummer"></td>
-           </tr>
-           <tr>
-             <td><input type="text" placeholder="Adresszusatz 1"></td>
-             <td><input type="text" placeholder="Adresszusatz 2"></td>
-           </tr>
-           <tr>
-             <td colspan="2"><input type="text" required placeholder="Land"></td>
-           </tr>
-           <tr>
-             <td><input type="text" required placeholder="PLZ"></td>
-             <td><input type="text" required placeholder="Ort"></td>
-           </tr>
-           <tr>
-             <td><input type="text"  placeholder="Telefonnr."></td>
-             <td><input type="text"  placeholder="Handynr."></td>
-           </tr>
-         </table>
-         <br>
-         <input type="submit" value="Weiter">
-       </form>
+            <input type="text" required placeholder="E-Mail">
 
+        </div>
+        <div class="EingabeAdresse">
+            <h1>Lieferadresse</h1>
 
+            <table class="liefern">
+                <tr>
+                    <td colspan="2">
+                        <label for="anrede"> Anrede: </label>
+                        <select name="Anrede" id="anrede">
+                            <option value="Herr">Herr</option>
+                            <option value="Frau">Frau</option>
+                            <option value="?">?</option>
+                        </select>
+                    </td>
+                    <td rowspan="2">
 
-     </div>
-
-
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="1"><input type="text" required placeholder="Vorname"></td>
+                    <td colspan="1"><input type="text" required placeholder="Nachname"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" required placeholder="Adresse"></td>
+                    <td><input type="text" required placeholder="Hausnummer"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="Adresszusatz 1"></td>
+                    <td><input type="text" placeholder="Adresszusatz 2"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="text" required placeholder="Land"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" required placeholder="PLZ"></td>
+                    <td><input type="text" required placeholder="Ort"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="Telefonnr."></td>
+                    <td><input type="text" placeholder="Handynr."></td>
+                </tr>
+            </table>
+            <br>
+            <input type="submit" value="Weiter">
+        </div>
     </div>
 
-    <div class="Bestellübersicht">
-      <div class="zentral">
-      <h1>Bestellübersicht</h1>
+<div class="Bestellübersicht">
+    <div class="zentral">
+        <h1>Bestellübersicht</h1>
     </div>
-      <div class="row">
+    <div class="row">
         <div class="left">Artikel</div>
         <div class="right">20€</div>
-      </div>
-      <div class="row">
+    </div>
+    <div class="row">
         <div class="left">Versandkosten</div>
         <div class="right">3.99€</div>
-      </div>
-      <div class="row">
+    </div>
+    <div class="row">
         <div class="left"><h4>Gesamtsumme</h4></div>
         <div class="right"><h4>100€</h4></div>
-      </div>
     </div>
+</div>
 
 
-
-  </div>
-
+</div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!--
-  <div class="main-content">
-    <div class="progress-box">
-      <div class="stepper-wrapper">
-        <div class="stepper-item active">
-          <div class="step-counter">1</div>
-          <div class="step-name">Addresse & Kontakt</div>
-        </div>
-        <div class="stepper-item">
-          <div class="step-counter">2</div>
-          <div class="step-name">Zahlungsmethode</div>
-        </div>
-        <div class="stepper-item">
-          <div class="step-counter">3</div>
-          <div class="step-name">Bestellbestätigung</div>
-        </div>
+<!--
+<div class="main-content">
+  <div class="progress-box">
+    <div class="stepper-wrapper">
+      <div class="stepper-item active">
+        <div class="step-counter">1</div>
+        <div class="step-name">Addresse & Kontakt</div>
       </div>
-    </div>
-    <div class="customer-details">
-      <div class="leftside">
-        <div class="left-item-box">
-          <h1>Addressinformationen</h1>
-        </div>
-        <div class="left-item-bottom-box">
-          <h1>Kontakt</h1>
-        </div>
-        <div class="nextstep">
-          <a href="checkout-payment.html">
-            <button>Weiter zur Zahlung</button>
-          </a>
-        </div>
+      <div class="stepper-item">
+        <div class="step-counter">2</div>
+        <div class="step-name">Zahlungsmethode</div>
       </div>
-      <div class="rightside">
-        <div class="order-summary-box">
-          <h2>Bestellübersicht</h2>
-        </div>
+      <div class="stepper-item">
+        <div class="step-counter">3</div>
+        <div class="step-name">Bestellbestätigung</div>
       </div>
     </div>
   </div>
-  -->
+  <div class="customer-details">
+    <div class="leftside">
+      <div class="left-item-box">
+        <h1>Addressinformationen</h1>
+      </div>
+      <div class="left-item-bottom-box">
+        <h1>Kontakt</h1>
+      </div>
+      <div class="nextstep">
+        <a href="checkout-payment.html">
+          <button>Weiter zur Zahlung</button>
+        </a>
+      </div>
+    </div>
+    <div class="rightside">
+      <div class="order-summary-box">
+        <h2>Bestellübersicht</h2>
+      </div>
+    </div>
+  </div>
+</div>
+-->
 
 
-
-  <!--Icon source-->
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-  </body>
+<!--Icon source-->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
 </html>
