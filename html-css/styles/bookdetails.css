@@ -71,7 +71,7 @@ h3{
 
 
 .warenkorb-hinzufuegen-button{
-    width: 250px;
+    width: 60%;
     height: 50px;
     border-radius: 10px;
     border: 1px solid rgb(0, 81, 255);
@@ -84,6 +84,10 @@ h3{
 .warenkorb-hinzufuegen-button:hover{
     color: rgb(0, 81, 255);
     background-color: white
+}
+
+.isbn{
+    font-size: 12px;
 }
 
 
