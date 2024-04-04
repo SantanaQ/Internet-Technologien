@@ -72,20 +72,9 @@
 <div class="info">
 
     <div class="links">
-        <div class="Kontakt">
-            <form action="checkout-payment.html">
-            <h2>Kontakt</h2>
-            <div>
-              <input class="input" type="text" required placeholder="E-Mail">
-            </div>
-            <div class="phone-box">
-              <input class="input" type="text" placeholder="Telefonnr.">
-              <input class="input" type="text" placeholder="Handynr.">
-            </div>
-            
-        </div>
         <div class="EingabeAdresse">
             <h1>Lieferadresse</h1>
+            <form action="checkout-payment.html">
             <table class="liefern">
                 <tr>
                     <td colspan="2">
@@ -93,7 +82,6 @@
                         <select name="Anrede" id="anrede">
                             <option value="Herr">Herr</option>
                             <option value="Frau">Frau</option>
-                            <option value="?">?</option>
                         </select>
                     </td>
                     <td rowspan="2">
@@ -108,10 +96,7 @@
                     <td><input class="input" type="text" required placeholder="Adresse"></td>
                     <td><input class="input" type="text" required placeholder="Hausnummer"></td>
                 </tr>
-                <tr>
-                    <td><input class="input" type="text" placeholder="Adresszusatz 1"></td>
-                    <td><input class="input" type="text" placeholder="Adresszusatz 2"></td>
-                </tr>
+
                 <tr>
                     <td colspan="2"><input class="input" type="text" required placeholder="Land"></td>
                 </tr>
@@ -123,6 +108,7 @@
             </table>
             <br>
             <input type="submit" value="Weiter">
+            </form>
         </div>
     </div>
 
