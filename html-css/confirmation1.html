@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/conformation.css">
+  <link rel="stylesheet" href="styles/checkout.css">
+
+  <link rel="icon" type="image/x-icon" href="https://github.com/SantanaQ/Internet-Technologien/blob/main/images/icon.png?raw=true">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <title>Bookshelf - Bestellbestätigung</title>
+</head>
+<body>
+<!--Anfang Header-->
+<div class="headerr">
+  <div class="leftt"></div>
+  <div class="items">
+    <div class="logo-box">
+      <a href="index.html">
+        <img class="logo" src="https://github.com/SantanaQ/Internet-Technologien/blob/main/images/logo.png?raw=true" alt="logo">
+      </a>
+    </div>
+    <div class="search">
+      <input class="searchbar" type="text" placeholder="Search...">
+      <button class="searchbutton"><ion-icon name="search-outline"></ion-icon></button>
+    </div>
+    <div class="buttons">
+      <a href="login.html">
+        <button class="login">Login</button>
+      </a>
+      <a href="registration.html">
+        <button class="signup">Sign Up</button>
+      </a>
+      <a href="shoppingcart.html">
+        <button class="warenkorb-button"><ion-icon name="cart-outline" class="warenkorb"></ion-icon></button>
+      </a>
+    </div>
+  </div>
+  <div class="rightt"></div>
+</div>
+<!--Ende Header-->
+
+<!--Anfang-->
+
+<div class="main-block">
+
+  <div class="progress-box">
+    <div class="stepper-wrapper">
+      <div class="stepper-item">
+        <div class="step-counter">1</div>
+        <div class="step-name">Adresse & Kontakt</div>
+      </div>
+      <div class="stepper-item">
+        <div class="step-counter">2</div>
+        <div class="step-name">Zahlungsmethode</div>
+      </div>
+      <div class="stepper-item active">
+        <div class="step-counter">3</div>
+        <div class="step-name">Bestellbestätigung</div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+</div>
+
+<div class="info">
+
+  <div class="Tabelle">
+    <table class="produkte" >
+
+      <tr>
+        <th class="col-Pr"><h2>Produkte</h2></th>
+        <th class="col-Me"><h2> Menge</h2></th>
+        <th class="col-Su"><h2> Summe</h2></th>
+      </tr>
+
+      <tr>
+        <td colspan="3"><hr></td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="produkt-info">
+            <img src="https://github.com/SantanaQ/Internet-Technologien/blob/main/images/a-song-of-ice-and-fire-01-a-game-of-thrones-taschenbuch-george-r-r-martin-englisch.webp?raw=true" alt="george-r-r-martin-a-game-of-thrones">
+            <div class = "text">
+              Produktname, Autor, Artikelnummer, ...
+            </div>
+          </div>
+        </td>
+        <td> 1 </td>
+        <td> 24€</td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="produkt-info">
+            <img src="../images/edgar-allan-poe-die-besten-geschichten-taschenbuch-edgar-allan-poe.webp" height="2000"
+                 width="1305"/>
+            <div class = "text">
+              Produktname, Autor, Artikelnummer, ...
+            </div>
+          </div>
+        </td>
+        <td> 1 </td>
+        <td> 16€</td>
+      </tr>
+
+    </table>
+  </div>
+
+  <div class="Zsfg">
+    <div class="zentral">
+      <h1>Zusammenfassung</h1>
+    </div>
+    <div class="row">
+      <div class="left">Summe</div>
+      <div class="right">63€</div>
+    </div>
+    <div class="row">
+      <div class="left">Versandkosten</div>
+      <div class="right">3.99€</div>
+    </div>
+    <div class="row">
+      <div class="left"><h4>Gesamtsumme</h4></div>
+      <div class="right"><h4>100€</h4></div>
+    </div>
+    <div class="row">
+        <div class="but-confirm">
+          <a href="checkout-payment.html">
+          <button class="confirm-button">Zurück</button>
+          </a>
+          <a href="confirmation2.html">
+          <button class="confirm-button">Kauf bestätigen</button>
+          </a>
+        </div>
+
+
+    </div>
+
+
+
+
+  </div>
+</div>
+
+<div class="info">
+  <div class="adresse">
+    <h4>Rechnungsadresse</h4>
+    <hr>
+    Vorname, Name <br>
+    Adresse<br>
+    Postleitzahl, Ort<br>
+    Land
+  </div>
+  <div class="adresse">
+    <h4>Lieferadresse</h4>
+    <hr>
+    Vorname, Name <br>
+    Adresse<br>
+    Postleitzahl, Ort<br>
+    Land
+  </div>
+  <div class="adresse">
+    <h4>Informationen</h4>
+    <hr>
+    <b>Zahlungsart:</b> PayPal <br><br>
+    <b>Versandart:</b> DHL
+  </div>
+</div>
+
+
+
+
+
+<!--Ende-->
+
+<!--Icon source-->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
